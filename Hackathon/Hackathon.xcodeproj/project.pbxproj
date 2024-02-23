@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B53DED82B892A4F00CA2C26 /* HarryPotterAPI.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B53DED72B892A4F00CA2C26 /* HarryPotterAPI.plist */; };
+		2B53DEDA2B892C1600CA2C26 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B53DED92B892C1600CA2C26 /* APIConstants.swift */; };
+		2B53DEDC2B892D1900CA2C26 /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B53DEDB2B892D1900CA2C26 /* House.swift */; };
+		2B53DEDE2B892D4700CA2C26 /* CharacterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B53DEDD2B892D4700CA2C26 /* CharacterType.swift */; };
+		2B53DEE02B892E2D00CA2C26 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B53DEDF2B892E2D00CA2C26 /* Environment.swift */; };
+		2B53DEE22B892E5A00CA2C26 /* CharacterAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B53DEE12B892E5A00CA2C26 /* CharacterAPI.swift */; };
+		2B53DEE42B89318400CA2C26 /* CharacterDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B53DEE32B89318400CA2C26 /* CharacterDTO.swift */; };
+		2B53DEE72B8931BF00CA2C26 /* CharactersAPIRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B53DEE62B8931BF00CA2C26 /* CharactersAPIRepository.swift */; };
+		2B53DEE92B89323300CA2C26 /* CharacterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B53DEE82B89323300CA2C26 /* CharacterData.swift */; };
+		2B53DEEB2B8932DD00CA2C26 /* CharactersRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B53DEEA2B8932DD00CA2C26 /* CharactersRepository.swift */; };
+		2B53DEEE2B89332700CA2C26 /* CharacterError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B53DEED2B89332700CA2C26 /* CharacterError.swift */; };
+		2B53DEF12B8936B500CA2C26 /* CharactersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B53DEF02B8936B500CA2C26 /* CharactersViewModel.swift */; };
+		2B53DEF32B89378F00CA2C26 /* HarryPotterEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B53DEF22B89378F00CA2C26 /* HarryPotterEnvironment.swift */; };
 		2B9FE9E02B891B2A006CD5B0 /* HackathonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9FE9DF2B891B2A006CD5B0 /* HackathonApp.swift */; };
 		2B9FE9E22B891B2A006CD5B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9FE9E12B891B2A006CD5B0 /* ContentView.swift */; };
 		2B9FE9E42B891B2C006CD5B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B9FE9E32B891B2C006CD5B0 /* Assets.xcassets */; };
@@ -14,6 +27,9 @@
 		2B9FE9F12B891B2C006CD5B0 /* HackathonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9FE9F02B891B2C006CD5B0 /* HackathonTests.swift */; };
 		2B9FE9FB2B891B2C006CD5B0 /* HackathonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9FE9FA2B891B2C006CD5B0 /* HackathonUITests.swift */; };
 		2B9FE9FD2B891B2C006CD5B0 /* HackathonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9FE9FC2B891B2C006CD5B0 /* HackathonUITestsLaunchTests.swift */; };
+		2B9FEA232B892556006CD5B0 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9FEA222B892556006CD5B0 /* HTTPClient.swift */; };
+		2B9FEA262B89259D006CD5B0 /* URLSessionHTTPClientError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9FEA252B89259D006CD5B0 /* URLSessionHTTPClientError.swift */; };
+		2B9FEA282B8925E5006CD5B0 /* URLSessionHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9FEA272B8925E5006CD5B0 /* URLSessionHTTPClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +50,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B53DED72B892A4F00CA2C26 /* HarryPotterAPI.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = HarryPotterAPI.plist; sourceTree = "<group>"; };
+		2B53DED92B892C1600CA2C26 /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		2B53DEDB2B892D1900CA2C26 /* House.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = House.swift; sourceTree = "<group>"; };
+		2B53DEDD2B892D4700CA2C26 /* CharacterType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterType.swift; sourceTree = "<group>"; };
+		2B53DEDF2B892E2D00CA2C26 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		2B53DEE12B892E5A00CA2C26 /* CharacterAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterAPI.swift; sourceTree = "<group>"; };
+		2B53DEE32B89318400CA2C26 /* CharacterDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDTO.swift; sourceTree = "<group>"; };
+		2B53DEE62B8931BF00CA2C26 /* CharactersAPIRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersAPIRepository.swift; sourceTree = "<group>"; };
+		2B53DEE82B89323300CA2C26 /* CharacterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterData.swift; sourceTree = "<group>"; };
+		2B53DEEA2B8932DD00CA2C26 /* CharactersRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersRepository.swift; sourceTree = "<group>"; };
+		2B53DEED2B89332700CA2C26 /* CharacterError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterError.swift; sourceTree = "<group>"; };
+		2B53DEF02B8936B500CA2C26 /* CharactersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersViewModel.swift; sourceTree = "<group>"; };
+		2B53DEF22B89378F00CA2C26 /* HarryPotterEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarryPotterEnvironment.swift; sourceTree = "<group>"; };
 		2B9FE9DC2B891B2A006CD5B0 /* Hackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hackathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B9FE9DF2B891B2A006CD5B0 /* HackathonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackathonApp.swift; sourceTree = "<group>"; };
 		2B9FE9E12B891B2A006CD5B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +73,9 @@
 		2B9FE9F62B891B2C006CD5B0 /* HackathonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackathonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B9FE9FA2B891B2C006CD5B0 /* HackathonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackathonUITests.swift; sourceTree = "<group>"; };
 		2B9FE9FC2B891B2C006CD5B0 /* HackathonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackathonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2B9FEA222B892556006CD5B0 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		2B9FEA252B89259D006CD5B0 /* URLSessionHTTPClientError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClientError.swift; sourceTree = "<group>"; };
+		2B9FEA272B8925E5006CD5B0 /* URLSessionHTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +103,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B53DEE52B8931A300CA2C26 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				2B53DEEF2B8934F100CA2C26 /* Characters */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		2B53DEEF2B8934F100CA2C26 /* Characters */ = {
+			isa = PBXGroup;
+			children = (
+				2B53DEE62B8931BF00CA2C26 /* CharactersAPIRepository.swift */,
+				2B53DEEA2B8932DD00CA2C26 /* CharactersRepository.swift */,
+			);
+			path = Characters;
+			sourceTree = "<group>";
+		};
 		2B9FE9D32B891B2A006CD5B0 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +143,6 @@
 		2B9FE9DE2B891B2A006CD5B0 /* Hackathon */ = {
 			isa = PBXGroup;
 			children = (
-				2B9FE9E12B891B2A006CD5B0 /* ContentView.swift */,
-				2B9FE9DF2B891B2A006CD5B0 /* HackathonApp.swift */,
 				2B9FE9E32B891B2C006CD5B0 /* Assets.xcassets */,
 				2B9FEA0B2B891C9E006CD5B0 /* Application */,
 				2B9FEA0A2B891C9A006CD5B0 /* Data */,
@@ -163,6 +210,7 @@
 		2B9FEA0C2B891CA8006CD5B0 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				2B53DED72B892A4F00CA2C26 /* HarryPotterAPI.plist */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -177,6 +225,8 @@
 		2B9FEA122B891DBD006CD5B0 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				2B9FE9E12B891B2A006CD5B0 /* ContentView.swift */,
+				2B53DEF02B8936B500CA2C26 /* CharactersViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -198,6 +248,7 @@
 		2B9FEA152B891FFB006CD5B0 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				2B9FE9DF2B891B2A006CD5B0 /* HackathonApp.swift */,
 				2B9FEA1A2B8920AE006CD5B0 /* Components */,
 				2B9FEA162B89201E006CD5B0 /* HomeScreen */,
 			);
@@ -225,6 +276,11 @@
 		2B9FEA182B892089006CD5B0 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
+				2B53DEDB2B892D1900CA2C26 /* House.swift */,
+				2B53DEDD2B892D4700CA2C26 /* CharacterType.swift */,
+				2B53DEE32B89318400CA2C26 /* CharacterDTO.swift */,
+				2B53DEE82B89323300CA2C26 /* CharacterData.swift */,
+				2B53DEED2B89332700CA2C26 /* CharacterError.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -232,6 +288,14 @@
 		2B9FEA192B892093006CD5B0 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				2B53DED92B892C1600CA2C26 /* APIConstants.swift */,
+				2B53DEE12B892E5A00CA2C26 /* CharacterAPI.swift */,
+				2B53DEDF2B892E2D00CA2C26 /* Environment.swift */,
+				2B9FEA222B892556006CD5B0 /* HTTPClient.swift */,
+				2B53DEE52B8931A300CA2C26 /* Repositories */,
+				2B9FEA272B8925E5006CD5B0 /* URLSessionHTTPClient.swift */,
+				2B9FEA252B89259D006CD5B0 /* URLSessionHTTPClientError.swift */,
+				2B53DEF22B89378F00CA2C26 /* HarryPotterEnvironment.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -383,6 +447,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B53DED82B892A4F00CA2C26 /* HarryPotterAPI.plist in Resources */,
 				2B9FE9E72B891B2C006CD5B0 /* Preview Assets.xcassets in Resources */,
 				2B9FE9E42B891B2C006CD5B0 /* Assets.xcassets in Resources */,
 			);
@@ -409,8 +474,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B53DEF12B8936B500CA2C26 /* CharactersViewModel.swift in Sources */,
+				2B53DEE22B892E5A00CA2C26 /* CharacterAPI.swift in Sources */,
+				2B53DEDC2B892D1900CA2C26 /* House.swift in Sources */,
+				2B53DEF32B89378F00CA2C26 /* HarryPotterEnvironment.swift in Sources */,
+				2B53DEE42B89318400CA2C26 /* CharacterDTO.swift in Sources */,
 				2B9FE9E22B891B2A006CD5B0 /* ContentView.swift in Sources */,
+				2B9FEA282B8925E5006CD5B0 /* URLSessionHTTPClient.swift in Sources */,
+				2B53DEEB2B8932DD00CA2C26 /* CharactersRepository.swift in Sources */,
 				2B9FE9E02B891B2A006CD5B0 /* HackathonApp.swift in Sources */,
+				2B53DEE72B8931BF00CA2C26 /* CharactersAPIRepository.swift in Sources */,
+				2B53DEEE2B89332700CA2C26 /* CharacterError.swift in Sources */,
+				2B53DEE02B892E2D00CA2C26 /* Environment.swift in Sources */,
+				2B9FEA262B89259D006CD5B0 /* URLSessionHTTPClientError.swift in Sources */,
+				2B53DEDE2B892D4700CA2C26 /* CharacterType.swift in Sources */,
+				2B9FEA232B892556006CD5B0 /* HTTPClient.swift in Sources */,
+				2B53DEDA2B892C1600CA2C26 /* APIConstants.swift in Sources */,
+				2B53DEE92B89323300CA2C26 /* CharacterData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -574,6 +654,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Hackathon/Preview Content\"";
+				DEVELOPMENT_TEAM = 86ZULXPTR9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -602,6 +683,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Hackathon/Preview Content\"";
+				DEVELOPMENT_TEAM = 86ZULXPTR9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

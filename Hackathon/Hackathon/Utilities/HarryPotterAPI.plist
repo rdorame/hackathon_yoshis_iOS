@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BASEURL</key>
+	<string>https://hp-api.onrender.com/</string>
+	<key>ENDPOINTS</key>
+	<dict>
+		<key>CHARACTERS</key>
+		<string>api/characters</string>
+		<key>SPELLS</key>
+		<string>api/spells</string>
+	</dict>
+</dict>
+</plist>
